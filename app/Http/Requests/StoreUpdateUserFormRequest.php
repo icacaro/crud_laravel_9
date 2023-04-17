@@ -34,8 +34,7 @@ class StoreUpdateUserFormRequest extends FormRequest
                 'required',
                 'min:6',
                 'max:15'
-            ],
-            'nome' => 'required|string|max:10|min:3',
+            ]
         ];
 
         if($this->method('PUT')) {
